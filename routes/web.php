@@ -17,6 +17,26 @@ Route::get('/', function () {
     return view('welcome');
 });
 
+
 Route::middleware(['auth:sanctum', 'verified'])->get('/dashboard', function () {
     return view('dashboard');
 })->name('dashboard');
+
+Route::get('/menu', function () {
+    return view('menu');
+});
+Route::get('/about', function () {
+    return view('about');
+});
+
+Route::get('/contact', function () {
+    return view('contact');
+});
+
+Route::get('/reservation', function () {
+    return view('reservation');
+});
+
+Route::get('/gallery', function () {
+    return view('gallery');
+});

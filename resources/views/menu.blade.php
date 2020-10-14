@@ -8,7 +8,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
  
      <!-- Site Metas -->
-    <title>SRMS</title>  
+    <title>Live Dinner Restaurant - Responsive HTML5 Template</title>  
     <meta name="keywords" content="">
     <meta name="description" content="">
     <meta name="author" content="">
@@ -39,28 +39,15 @@
 		<nav class="navbar navbar-expand-lg navbar-light bg-light">
 			<div class="container">
 				<a class="navbar-brand" href="index.html">
-					<img src="images/goal.jpg" alt="" />
+					<img src="images/logo.png" alt="" />
 				</a>
 				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbars-rs-food" aria-controls="navbars-rs-food" aria-expanded="false" aria-label="Toggle navigation">
 				  <span class="navbar-toggler-icon"></span>
 				</button>
-				@if (Route::has('login'))
-                <div class="hidden fixed top-0 right-0 px-6 py-4 sm:block">
-                    @auth
-                        <a href="{{ url('/dashboard') }}" class="text-sm text-gray-700 underline">Dashboard</a>
-                    @else
-                        <a href="{{ route('login') }}" class="text-sm text-gray-700 underline">Login</a>
-
-                        @if (Route::has('register'))
-                            <a href="{{ route('register') }}" class="ml-4 text-sm text-gray-700 underline">Register</a>
-                        @endif
-                    @endif
-                </div>
-            @endif
 				<div class="collapse navbar-collapse" id="navbars-rs-food">
 					<ul class="navbar-nav ml-auto">
-						<li class="nav-item active"><a class="nav-link" href='/'>Home</a></li>
-						<li class="nav-item"><a class="nav-link" href='/menu'>Menu</a></li>
+						<li class="nav-item"><a class="nav-link" href='/'>Home</a></li>
+						<li class="nav-item active"><a class="nav-link" href='/menu'>Menu</a></li>
 						<li class="nav-item"><a class="nav-link" href='/about'>About</a></li>
 						<li class="nav-item dropdown">
 							<a class="nav-link dropdown-toggle" href="#" id="dropdown-a" data-toggle="dropdown">Pages</a>
@@ -85,91 +72,17 @@
 	</header>
 	<!-- End header -->
 	
-	<!-- Start slides -->
-	<div id="slides" class="cover-slides">
-		<ul class="slides-container">
-			<li class="text-left">
-				<img src="images/slider-01.jpg" alt=""><img src="assets/images/slider-02.jpg" alt="website template image" style="backface-visibility: hidden; position: absolute; left: 0px; top: -43.0625px; z-index: -1; max-width: none; height: 578.133px; width: 867.2px;">
-				<div class="container">
-					<div class="row">
-						<div class="col-md-12">
-							<h1 class="m-b-20"><strong>Welcome To <br> GOAL GAPPAS Restaurant</strong></h1>
-							<p class="m-b-40">See how your users experience your website in realtime or view  <br> 
-							trends to see any changes in performance over time.</p>
-							<p><a class="btn btn-lg btn-circle btn-outline-new-white" href='/reservation'>Reservation</a></p>
-						</div>
-					</div>
-				</div>
-			</li>
-			<li class="text-left">
-				<img src="images/slider-02.jpg" alt="">
-				<div class="container">
-					<div class="row">
-						<div class="col-md-12">
-							<h1 class="m-b-20"><strong>Welcome To <br> Goal Gappas Restaurant</strong></h1>
-							<p class="m-b-40">See how your users experience your website in realtime or view  <br> 
-							trends to see any changes in performance over time.</p>
-							<p><a class="btn btn-lg btn-circle btn-outline-new-white" href='/reservation'>Reservation</a></p>
-						</div>
-					</div>
-				</div>
-			</li>
-			<li class="text-left">
-				<img src="images/slider-03.jpg" alt="">
-				<div class="container">
-					<div class="row">
-						<div class="col-md-12">
-							<h1 class="m-b-20"><strong>Welcome To <br> GOAL GAPPAS Restaurant</strong></h1>
-							<p class="m-b-40">See how your users experience your website in realtime or view  <br> 
-							trends to see any changes in performance over time.</p>
-							<p><a class="btn btn-lg btn-circle btn-outline-new-white" href='/reservation'>Reservation</a></p>
-						</div>
-					</div>
-				</div>
-			</li>
-		</ul>
-		<div class="slides-navigation">
-			<a href="#" class="next"><i class="fa fa-angle-right" aria-hidden="true"></i></a>
-			<a href="#" class="prev"><i class="fa fa-angle-left" aria-hidden="true"></i></a>
-		</div>
-	</div>
-	<!-- End slides -->
-	
-	<!-- Start About -->
-	<div class="about-section-box">
-		<div class="container">
+	<!-- Start All Pages -->
+	<div class="all-page-title page-breadcrumb">
+		<div class="container text-center">
 			<div class="row">
-				<div class="col-lg-6 col-md-6 col-sm-12 text-center">
-					<div class="inner-column">
-						<h1>Welcome To <span>Live Dinner Restaurant</span></h1>
-						<h4>Little Story</h4>
-						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque auctor suscipit feugiat. Ut at pellentesque ante, sed convallis arcu. Nullam facilisis, eros in eleifend luctus, odio ante sodales augue, eget lacinia lectus erat et sem. </p>
-						<p>Sed semper orci sit amet porta placerat. Etiam quis finibus eros. Sed aliquam metus lorem, a pellentesque tellus pretium a. Nulla placerat elit in justo vestibulum, et maximus sem pulvinar.</p>
-						<a class="btn btn-lg btn-circle btn-outline-new-white" href="#">Reservation</a>
-					</div>
-				</div>
-				<div class="col-lg-6 col-md-6 col-sm-12">
-					<img src="images/about-img.jpg" alt="" class="img-fluid">
+				<div class="col-lg-12">
+					<h1>Special Menu</h1>
 				</div>
 			</div>
 		</div>
 	</div>
-	<!-- End About -->
-	
-	<!-- Start QT -->
-	<div class="qt-box qt-background">
-		<div class="container">
-			<div class="row">
-				<div class="col-md-8 ml-auto mr-auto text-center">
-					<p class="lead ">
-						" If you're not the one cooking, stay out of the way and compliment the chef. "
-					</p>
-					<span class="lead">Michael Strahan</span>
-				</div>
-			</div>
-		</div>
-	</div>
-	<!-- End QT -->
+	<!-- End All Pages -->
 	
 	<!-- Start Menu -->
 	<div class="menu-box">
@@ -410,59 +323,24 @@
 					</div>
 				</div>
 			</div>
-			
 		</div>
 	</div>
 	<!-- End Menu -->
 	
-	<!-- Start Gallery -->
-	<div class="gallery-box">
+	<!-- Start QT -->
+	<div class="qt-box qt-background">
 		<div class="container">
 			<div class="row">
-				<div class="col-lg-12">
-					<div class="heading-title text-center">
-						<h2>Gallery</h2>
-						<p>Lorem Ipsum is simply dummy text of the printing and typesetting</p>
-					</div>
-				</div>
-			</div>
-			<div class="tz-gallery">
-				<div class="row">
-					<div class="col-sm-12 col-md-4 col-lg-4">
-						<a class="lightbox" href="images/gallery-img-01.jpg">
-							<img class="img-fluid" src="images/gallery-img-01.jpg" alt="Gallery Images">
-						</a>
-					</div>
-					<div class="col-sm-6 col-md-4 col-lg-4">
-						<a class="lightbox" href="images/gallery-img-02.jpg">
-							<img class="img-fluid" src="images/gallery-img-02.jpg" alt="Gallery Images">
-						</a>
-					</div>
-					<div class="col-sm-6 col-md-4 col-lg-4">
-						<a class="lightbox" href="images/gallery-img-03.jpg">
-							<img class="img-fluid" src="images/gallery-img-03.jpg" alt="Gallery Images">
-						</a>
-					</div>
-					<div class="col-sm-12 col-md-4 col-lg-4">
-						<a class="lightbox" href="images/gallery-img-04.jpg">
-							<img class="img-fluid" src="images/gallery-img-04.jpg" alt="Gallery Images">
-						</a>
-					</div>
-					<div class="col-sm-6 col-md-4 col-lg-4">
-						<a class="lightbox" href="images/gallery-img-05.jpg">
-							<img class="img-fluid" src="images/gallery-img-05.jpg" alt="Gallery Images">
-						</a>
-					</div> 
-					<div class="col-sm-6 col-md-4 col-lg-4">
-						<a class="lightbox" href="images/gallery-img-06.jpg">
-							<img class="img-fluid" src="images/gallery-img-06.jpg" alt="Gallery Images">
-						</a>
-					</div>
+				<div class="col-md-8 ml-auto mr-auto text-center">
+					<p class="lead ">
+						" If you're not the one cooking, stay out of the way and compliment the chef. "
+					</p>
+					<span class="lead">Michael Strahan</span>
 				</div>
 			</div>
 		</div>
 	</div>
-	<!-- End Gallery -->
+	<!-- End QT -->
 	
 	<!-- Start Customer Reviews -->
 	<div class="customer-reviews-box">
