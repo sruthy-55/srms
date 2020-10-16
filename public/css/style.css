@@ -724,7 +724,7 @@ button:focus{
     line-height: 50px;
     display: inline-block;
     padding: 0 10px;
-    float: left;
+    float:left;
     width: 100%;
 	border: none;
 	cursor: pointer;
@@ -1361,6 +1361,50 @@ blockquote {
     transition: opacity 0.2s ease-out;
 	font-size: 30px;
 }
+.container {
+    padding: 16px;
+   
+  
+
+  }
+  .loginbtn {
+    background-color: hsl(2, 88%, 50%);
+    color: white;
+    margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  border-radius: 12px;
+    border: none;
+    cursor: pointer;
+    width: 25%;
+    opacity: 0.9;
+  }
+  .loginbtn:hover {
+    opacity:1;
+  }
+
+  .registerbtn {
+    background-color: hsl(2, 88%, 50%);
+    color: white;
+    margin: 0;
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  border-radius: 12px;
+    border: none;
+    cursor: pointer;
+    width: 25%;
+    opacity: 0.9;
+  }
+  
+  .registerbtn:hover {
+    opacity:1;
+  }
 
 
 

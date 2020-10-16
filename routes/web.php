@@ -40,3 +40,13 @@ Route::get('/reservation', function () {
 Route::get('/gallery', function () {
     return view('gallery');
 });
+
+Route::get('/home', function () {
+    return view('customer.home');
+});
+Route::get('/login', function () {
+    return view('customer.customerlogin');
+});
+Route::get('/register', function () {
+    return view('customer.customerRegister');
+});

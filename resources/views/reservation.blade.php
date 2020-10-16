@@ -54,11 +54,11 @@
 						<li class="nav-item"><a class="nav-link" href='/menu'>Menu</a></li>
 						<li class="nav-item"><a class="nav-link" href='/about'>About</a></li>
 						<li class="nav-item active dropdown">
-							<a class="nav-link dropdown-toggle" href="#" id="dropdown-a" data-toggle="dropdown">Pages</a>
+							<a class="nav-link dropdown-toggle" href="#" id="dropdown-a" data-toggle="dropdown">Login</a>
 							<div class="dropdown-menu" aria-labelledby="dropdown-a">
-								<a class="dropdown-item" href='/reservation'>Reservation</a>
-								<a class="dropdown-item" href="stuff.html">Stuff</a>
-								<a class="dropdown-item" href='/gallery'>Gallery</a>
+								<a class="dropdown-item" href='/reservation'>Admin</a>
+								<a class="dropdown-item" href="stuff.html">Staff</a>
+								<a class="dropdown-item" href='/gallery'>Customer</a>
 							</div>
 						</li>
 						<li class="nav-item dropdown">
