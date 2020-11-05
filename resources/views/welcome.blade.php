@@ -44,7 +44,7 @@
 				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbars-rs-food" aria-controls="navbars-rs-food" aria-expanded="false" aria-label="Toggle navigation">
 				  <span class="navbar-toggler-icon"></span>
 				</button>
-				@if (Route::has('login'))
+				 <!-- @if (Route::has('login'))
                 <div class="hidden fixed top-0 right-0 px-6 py-4 sm:block">
                     @auth
                         <a href="{{ url('/dashboard') }}" class="text-sm text-gray-700 underline">Dashboard</a>
@@ -56,18 +56,18 @@
                         @endif
                     @endif
                 </div>
-            @endif
+            @endif -->
 				<div class="collapse navbar-collapse" id="navbars-rs-food">
 					<ul class="navbar-nav ml-auto">
 						<li class="nav-item active"><a class="nav-link" href='/'>Home</a></li>
 						<li class="nav-item"><a class="nav-link" href='/menu'>Menu</a></li>
 						<li class="nav-item"><a class="nav-link" href='/about'>About</a></li>
 						<li class="nav-item dropdown">
-							<a class="nav-link dropdown-toggle" href="#" id="dropdown-a" data-toggle="dropdown">Pages</a>
+							<a class="nav-link dropdown-toggle" href="#" id="dropdown-a" data-toggle="dropdown">Login</a>
 							<div class="dropdown-menu" aria-labelledby="dropdown-a">
-								<a class="dropdown-item" href='/reservation'>Reservation</a>
-								<a class="dropdown-item" href="stuff.html">Stuff</a>
-								<a class="dropdown-item" href='/gallery'>Gallery</a>
+								<a class="dropdown-item" href='/reservation'>Admin</a>
+								<a class="dropdown-item" href="stuff.html">Staff</a>
+								<a class="dropdown-item" href='/home'>Customer</a>
 							</div>
 						</li>
 						<li class="nav-item dropdown">
@@ -89,26 +89,24 @@
 	<div id="slides" class="cover-slides">
 		<ul class="slides-container">
 			<li class="text-left">
-				<img src="images/slider-01.jpg" alt=""><img src="assets/images/slider-02.jpg" alt="website template image" style="backface-visibility: hidden; position: absolute; left: 0px; top: -43.0625px; z-index: -1; max-width: none; height: 578.133px; width: 867.2px;">
+				<img src="images/goal1.jpg" alt=""><img src="assets/images/slider-02.jpg" alt="website template image" style="backface-visibility: hidden; position: absolute; left: 0px; top: -43.0625px; z-index: -1; max-width: none; height: 578.133px; width: 867.2px;">
 				<div class="container">
 					<div class="row">
 						<div class="col-md-12">
-							<h1 class="m-b-20"><strong>Welcome To <br> GOAL GAPPAS Restaurant</strong></h1>
-							<p class="m-b-40">See how your users experience your website in realtime or view  <br> 
-							trends to see any changes in performance over time.</p>
+							<h1 class="m-b-20"><strong>Welcome To <br> Goal Gappas </strong></h1>
+							<p class="m-b-40">Goal Gappas in Thrissur to taste authentic Kolkata golgappa.</p>
 							<p><a class="btn btn-lg btn-circle btn-outline-new-white" href='/reservation'>Reservation</a></p>
 						</div>
 					</div>
 				</div>
 			</li>
 			<li class="text-left">
-				<img src="images/slider-02.jpg" alt="">
+				<img src="images/goal2.jpg" alt="">
 				<div class="container">
 					<div class="row">
 						<div class="col-md-12">
-							<h1 class="m-b-20"><strong>Welcome To <br> Goal Gappas Restaurant</strong></h1>
-							<p class="m-b-40">See how your users experience your website in realtime or view  <br> 
-							trends to see any changes in performance over time.</p>
+							<h1 class="m-b-20"><strong>Welcome To <br> Goal Gappas </strong></h1>
+							<p class="m-b-40">Goal Gappas in Thrissur to taste authentic Kolkata golgappa.</p>
 							<p><a class="btn btn-lg btn-circle btn-outline-new-white" href='/reservation'>Reservation</a></p>
 						</div>
 					</div>
@@ -119,9 +117,8 @@
 				<div class="container">
 					<div class="row">
 						<div class="col-md-12">
-							<h1 class="m-b-20"><strong>Welcome To <br> GOAL GAPPAS Restaurant</strong></h1>
-							<p class="m-b-40">See how your users experience your website in realtime or view  <br> 
-							trends to see any changes in performance over time.</p>
+							<h1 class="m-b-20"><strong>Welcome To <br> Goal Gappas</strong></h1>
+							<p class="m-b-40">Goal Gappas in Thrissur to taste authentic Kolkata golgappa.</p>
 							<p><a class="btn btn-lg btn-circle btn-outline-new-white" href='/reservation'>Reservation</a></p>
 						</div>
 					</div>
@@ -141,10 +138,10 @@
 			<div class="row">
 				<div class="col-lg-6 col-md-6 col-sm-12 text-center">
 					<div class="inner-column">
-						<h1>Welcome To <span>Live Dinner Restaurant</span></h1>
+						<h1>Welcome To <span>Goal Gappas</span></h1>
 						<h4>Little Story</h4>
-						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque auctor suscipit feugiat. Ut at pellentesque ante, sed convallis arcu. Nullam facilisis, eros in eleifend luctus, odio ante sodales augue, eget lacinia lectus erat et sem. </p>
-						<p>Sed semper orci sit amet porta placerat. Etiam quis finibus eros. Sed aliquam metus lorem, a pellentesque tellus pretium a. Nulla placerat elit in justo vestibulum, et maximus sem pulvinar.</p>
+						<p>Golgappa or pani puri is one of the most popular items that are enjoyed by the foodies of Kerala.The number of North Indian food joints or way side chaat shops is proof enough for Keralites' love food. </p>
+						<p>From the regular pani puri and dahi (yogurt) puri to the Arabic golgappa with a pan grilled chicken .</p>
 						<a class="btn btn-lg btn-circle btn-outline-new-white" href="#">Reservation</a>
 					</div>
 				</div>

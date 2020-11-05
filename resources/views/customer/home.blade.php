@@ -8,7 +8,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
  
      <!-- Site Metas -->
-    <title>Live Dinner Restaurant - Responsive HTML5 Template</title>  
+    <title>SRMS</title>  
+	
     <meta name="keywords" content="">
     <meta name="description" content="">
     <meta name="author" content="">
@@ -39,24 +40,19 @@
 		<nav class="navbar navbar-expand-lg navbar-light bg-light">
 			<div class="container">
 				<a class="navbar-brand" href="index.html">
-					<img src="images/logo.png" alt="" />
+					<img src="images/goal.jpg" alt="" />
 				</a>
 				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbars-rs-food" aria-controls="navbars-rs-food" aria-expanded="false" aria-label="Toggle navigation">
 				  <span class="navbar-toggler-icon"></span>
 				</button>
+				 
 				<div class="collapse navbar-collapse" id="navbars-rs-food">
 					<ul class="navbar-nav ml-auto">
-						<li class="nav-item"><a class="nav-link" href='/'>Home</a></li>
+						<li class="nav-item "><a class="nav-link" href='/'>Home</a></li>
 						<li class="nav-item"><a class="nav-link" href='/menu'>Menu</a></li>
 						<li class="nav-item"><a class="nav-link" href='/about'>About</a></li>
-						<li class="nav-item dropdown">
-							<a class="nav-link dropdown-toggle" href="#" id="dropdown-a" data-toggle="dropdown">Login</a>
-							<div class="dropdown-menu" aria-labelledby="dropdown-a">
-								<a class="dropdown-item" href='/reservation'>Admin</a>
-								<a class="dropdown-item" href="stuff.html">Staff</a>
-								<a class="dropdown-item" href='/gallery'>Customer</a>
-							</div>
-						</li>
+						<li class="nav-item active"><a class="nav-link" href='/home'>Customer</a></li>
+						
 						<li class="nav-item dropdown">
 							<a class="nav-link dropdown-toggle" href="#" id="dropdown-a" data-toggle="dropdown">Blog</a>
 							<div class="dropdown-menu" aria-labelledby="dropdown-a">
@@ -64,7 +60,7 @@
 								<a class="dropdown-item" href="blog-details.html">blog Single</a>
 							</div>
 						</li>
-						<li class="nav-item active"><a class="nav-link" href='/contact'>Contact</a></li>
+						<li class="nav-item"><a class="nav-link" href='/contact'>Contact</a></li>
 					</ul>
 				</div>
 			</div>
@@ -72,113 +68,56 @@
 	</header>
 	<!-- End header -->
 	
-	<!-- Start All Pages -->
-	<div class="all-page-title page-breadcrumb">
-		<div class="container text-center">
-			<div class="row">
-				<div class="col-lg-12">
-					<h1>Contact</h1>
+	<!-- Start slides -->
+	<div id="slides" class="cover-slides">
+		<ul class="slides-container">
+			<li class="text-left">
+				<img src="images/goal1.jpg" alt=""><img src="assets/images/slider-02.jpg" alt="website template image" style="backface-visibility: hidden; position: absolute; left: 0px; top: -43.0625px; z-index: -1; max-width: none; height: 578.133px; width: 867.2px;">
+				<div class="container">
+					<div class="row">
+						<div class="col-md-12">
+							<h1 class="m-b-20"><strong>Welcome To <br> Goal Gappas </strong></h1>
+							<p class="m-b-40">Goal Gappas in Thrissur to taste authentic Kolkata golgappa.</p>
+							<p><a class="btn btn-lg btn-circle btn-outline-new-white" href='/login'>Login  </a></p>
+							<p><a class="btn btn-lg btn-circle btn-outline-new-white" href='/register'>Register</a></p>
+						</div>
+					</div>
 				</div>
-			</div>
+			</li>
+			<li class="text-left">
+				<img src="images/goal2.jpg" alt="">
+				<div class="container">
+					<div class="row">
+						<div class="col-md-12">
+							<h1 class="m-b-20"><strong>Welcome To <br> Goal Gappas </strong></h1>
+							<p class="m-b-40">Goal Gappas in Thrissur to taste authentic Kolkata golgappa.</p>
+							<p><a class="btn btn-lg btn-circle btn-outline-new-white" href='/login'>Login  </a></p>
+							<p><a class="btn btn-lg btn-circle btn-outline-new-white" href='/register'>Register</a></p>
+						</div>
+					</div>
+				</div>
+			</li>
+			<li class="text-left">
+				<img src="images/slider-03.jpg" alt="">
+				<div class="container">
+					<div class="row">
+						<div class="col-md-12">
+							<h1 class="m-b-20"><strong>Welcome To <br> Goal Gappas</strong></h1>
+							<p class="m-b-40">Goal Gappas in Thrissur to taste authentic Kolkata golgappa.</p>
+							<p><a class="btn btn-lg btn-circle btn-outline-new-white" href='/login'>Login  </a></p>
+							<p><a class="btn btn-lg btn-circle btn-outline-new-white" href='/register'>Register</a></p>
+						</div>
+					</div>
+				</div>
+			</li>
+		</ul>
+		<div class="slides-navigation">
+			<a href="#" class="next"><i class="fa fa-angle-right" aria-hidden="true"></i></a>
+			<a href="#" class="prev"><i class="fa fa-angle-left" aria-hidden="true"></i></a>
 		</div>
 	</div>
-	<!-- End All Pages -->
+	<!-- End slides -->
 	
-	<!-- Start Contact -->
-	<div class="map-full"></div>
-	<div class="contact-box">
-		<div class="container">
-			<div class="row">
-				<div class="col-lg-12">
-					<div class="heading-title text-center">
-						<h2>Contact</h2>
-						<p>Lorem Ipsum is simply dummy text of the printing and typesetting</p>
-					</div>
-				</div>
-			</div>
-			<div class="row">
-				<div class="col-lg-12">
-					<form id="contactForm">
-						<div class="row">
-							<div class="col-md-12">
-								<div class="form-group">
-									<input type="text" class="form-control" id="name" name="name" placeholder="Your Name" required data-error="Please enter your name">
-									<div class="help-block with-errors"></div>
-								</div>                                 
-							</div>
-							<div class="col-md-12">
-								<div class="form-group">
-									<input type="text" placeholder="Your Email" id="email" class="form-control" name="name" required data-error="Please enter your email">
-									<div class="help-block with-errors"></div>
-								</div> 
-							</div>
-							<div class="col-md-12">
-								<div class="form-group">
-									<select class="custom-select d-block form-control" id="guest" required data-error="Please Select Person">
-									  <option disabled selected>Please Select Person*</option>
-									  <option value="1">1</option>
-									  <option value="2">2</option>
-									  <option value="3">3</option>
-									  <option value="4">4</option>
-									  <option value="5">5</option>
-									</select>
-									<div class="help-block with-errors"></div>
-								</div> 
-							</div>
-							<div class="col-md-12">
-								<div class="form-group"> 
-									<textarea class="form-control" id="message" placeholder="Your Message" rows="4" data-error="Write your message" required></textarea>
-									<div class="help-block with-errors"></div>
-								</div>
-								<div class="submit-button text-center">
-									<button class="btn btn-common" id="submit" type="submit">Send Message</button>
-									<div id="msgSubmit" class="h3 text-center hidden"></div> 
-									<div class="clearfix"></div> 
-								</div>
-							</div>
-						</div>            
-					</form>
-				</div>
-			</div>
-		</div>
-	</div>
-	<!-- End Contact -->
-	
-	<!-- Start Contact info -->
-	<div class="contact-imfo-box">
-		<div class="container">
-			<div class="row">
-				<div class="col-md-4 arrow-right">
-					<i class="fa fa-volume-control-phone"></i>
-					<div class="overflow-hidden">
-						<h4>Phone</h4>
-						<p class="lead">
-							+01 123-456-4590
-						</p>
-					</div>
-				</div>
-				<div class="col-md-4 arrow-right">
-					<i class="fa fa-envelope"></i>
-					<div class="overflow-hidden">
-						<h4>Email</h4>
-						<p class="lead">
-							yourmail@gmail.com
-						</p>
-					</div>
-				</div>
-				<div class="col-md-4">
-					<i class="fa fa-map-marker"></i>
-					<div class="overflow-hidden">
-						<h4>Location</h4>
-						<p class="lead">
-							800, Lorem Street, US
-						</p>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
-	<!-- End Contact info -->
 	
 	<!-- Start Footer -->
 	<footer class="footer-area bg-f">
@@ -242,27 +181,12 @@
 	<script src="js/popper.min.js"></script>
 	<script src="js/bootstrap.min.js"></script>
     <!-- ALL PLUGINS -->
-	
 	<script src="js/jquery.superslides.min.js"></script>
 	<script src="js/images-loded.min.js"></script>
 	<script src="js/isotope.min.js"></script>
 	<script src="js/baguetteBox.min.js"></script>
-	<script src="js/jquery.mapify.js"></script>
 	<script src="js/form-validator.min.js"></script>
     <script src="js/contact-form-script.js"></script>
     <script src="js/custom.js"></script>
-	<script>
-		$('.map-full').mapify({
-			points: [
-				{
-					lat: 40.7143528,
-					lng: -74.0059731,
-					marker: true,
-					title: 'Marker title',
-					infoWindow: 'Live Dinner Restaurant'
-				}
-			]
-		});	
-	</script>
 </body>
 </html>
