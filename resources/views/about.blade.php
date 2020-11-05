@@ -8,7 +8,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
  
      <!-- Site Metas -->
-    <title>Live Dinner Restaurant - Responsive HTML5 Template</title>  
+    <title>SRMS</title>  
     <meta name="keywords" content="">
     <meta name="description" content="">
     <meta name="author" content="">
@@ -57,14 +57,14 @@
 								<a class="dropdown-item" href='/gallery'>Customer</a>
 							</div>
 						</li>
-						<li class="nav-item dropdown">
+						<!--<li class="nav-item dropdown">
 							<a class="nav-link dropdown-toggle" href="#" id="dropdown-a" data-toggle="dropdown">Blog</a>
 							<div class="dropdown-menu" aria-labelledby="dropdown-a">
 								<a class="dropdown-item" href="blog.html">blog</a>
 								<a class="dropdown-item" href="blog-details.html">blog Single</a>
 							</div>
-						</li>
-						<li class="nav-item"><a class="nav-link" href='/contact'>Contact</a></li>
+						</li>-->
+						<li class="nav-item"><a class="nav-link" href='/contact'>Feedback</a></li>
 					</ul>
 				</div>
 			</div>
@@ -90,20 +90,19 @@
 			<div class="row">
 				<div class="col-lg-6 col-md-6 text-center">
 					<div class="inner-column">
-						<h1>Welcome To <span>Live Dinner Restaurant</span></h1>
-						<h4>Little Story</h4>
-						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque auctor suscipit feugiat. Ut at pellentesque ante, sed convallis arcu. Nullam facilisis, eros in eleifend luctus, odio ante sodales augue, eget lacinia lectus erat et sem. </p>
-						<p>Sed semper orci sit amet porta placerat. Etiam quis finibus eros. Sed aliquam metus lorem, a pellentesque tellus pretium a. Nulla placerat elit in justo vestibulum, et maximus sem pulvinar.</p>
+						<h1>Welcome To <span>GOAL GAPPAS</span></h1>
+				
+						<p>'At Goal Gappas, we believe in Redefining Authenticity.We serve you Golgappas like you've never had before in many non veg and veg avatars.Between don't miss out on our special Porotta Rolls,Shakes and Desi Macronis. And to top it all, we have our own to-die-for golgappa deserts...'.</p>
 						<a class="btn btn-lg btn-circle btn-outline-new-white" href="#">Reservation</a>
 					</div>
 				</div>
-				<div class="col-lg-6 col-md-6">
-					<img src="images/about-img.jpg" alt="" class="img-fluid">
+				<div class="col-lg-6 col-md-7">
+					<img src="images/sahna.jpg" alt="" class="img-fluid">
 				</div>
 				<div class="col-md-12">
 					<div class="inner-pt">
-						<p>Sed tincidunt, neque at egestas imperdiet, nulla sapien blandit nunc, sit amet pulvinar orci nibh ut massa. Proin nec lectus sed nunc placerat semper. Duis hendrerit elit nec sapien porttitor, ut pretium ipsum feugiat. Aenean volutpat porta nisi in gravida. Curabitur pulvinar ligula sed facilisis bibendum. Nullam vitae nulla elit. </p>
-						<p>Integer purus velit, eleifend eu magna volutpat, porttitor blandit lectus. Aenean risus odio, efficitur quis erat eget, mattis tristique arcu. Fusce in ante enim. Integer consectetur elit nec laoreet rutrum. Mauris porta turpis nec tellus accumsan pellentesque. Morbi non quam tempus, convallis urna in, cursus mauris. </p>
+						<p>Amongst the tonnes of failed experiements, we had some success and thats in our menu here at Goal Gappas...
+ </p>
 					</div>
 				</div>
 			</div>
@@ -125,24 +124,24 @@
 				
 			<div class="row inner-menu-box">
 				<div class="col-3">
-					<div class="nav flex-column nav-pills" id="v-pills-tab" role="tablist" aria-orientation="vertical">
+					<!--<div class="nav flex-column nav-pills" id="v-pills-tab" role="tablist" aria-orientation="vertical">
 						<a class="nav-link active" id="v-pills-home-tab" data-toggle="pill" href="#v-pills-home" role="tab" aria-controls="v-pills-home" aria-selected="true">All</a>
 						<a class="nav-link" id="v-pills-profile-tab" data-toggle="pill" href="#v-pills-profile" role="tab" aria-controls="v-pills-profile" aria-selected="false">Drinks</a>
 						<a class="nav-link" id="v-pills-messages-tab" data-toggle="pill" href="#v-pills-messages" role="tab" aria-controls="v-pills-messages" aria-selected="false">Lunch</</a>
 						<a class="nav-link" id="v-pills-settings-tab" data-toggle="pill" href="#v-pills-settings" role="tab" aria-controls="v-pills-settings" aria-selected="false">Dinner</a>
-					</div>
+					</div>-->
 				</div>
 				
-				<div class="col-9">
+				<div class="col-12">
 					<div class="tab-content" id="v-pills-tabContent">
 						<div class="tab-pane fade show active" id="v-pills-home" role="tabpanel" aria-labelledby="v-pills-home-tab">
 							<div class="row">
 								<div class="col-lg-4 col-md-6 special-grid drinks">
 									<div class="gallery-single fix">
-										<img src="images/img-01.jpg" class="img-fluid" alt="Image">
+										<img src="images/8.jpg" class="img-fluid" alt="Image">
 										<div class="why-text">
-											<h4>Special Drinks 1</h4>
-											<p>Sed id magna vitae eros sagittis euismod.</p>
+											<h4>BHEL BHUTTA PURI</h4>
+											<p></p>
 											<h5> $7.79</h5>
 										</div>
 									</div>
@@ -150,10 +149,10 @@
 								
 								<div class="col-lg-4 col-md-6 special-grid drinks">
 									<div class="gallery-single fix">
-										<img src="images/img-02.jpg" class="img-fluid" alt="Image">
+										<img src="images/9.jpg" class="img-fluid" alt="Image">
 										<div class="why-text">
-											<h4>Special Drinks 2</h4>
-											<p>Sed id magna vitae eros sagittis euismod.</p>
+											<h4>PAV BHAJI</h4>
+											<p></p>
 											<h5> $9.79</h5>
 										</div>
 									</div>
@@ -161,10 +160,10 @@
 								
 								<div class="col-lg-4 col-md-6 special-grid drinks">
 									<div class="gallery-single fix">
-										<img src="images/img-03.jpg" class="img-fluid" alt="Image">
+										<img src="images/12.jpg" class="img-fluid" alt="Image">
 										<div class="why-text">
-											<h4>Special Drinks 3</h4>
-											<p>Sed id magna vitae eros sagittis euismod.</p>
+											<h4>POROTTA ROLLS</h4>
+											<p></p>
 											<h5> $10.79</h5>
 										</div>
 									</div>
@@ -172,10 +171,10 @@
 								
 								<div class="col-lg-4 col-md-6 special-grid lunch">
 									<div class="gallery-single fix">
-										<img src="images/img-04.jpg" class="img-fluid" alt="Image">
+										<img src="images/16.jpg" class="img-fluid" alt="Image">
 										<div class="why-text">
-											<h4>Special Lunch 1</h4>
-											<p>Sed id magna vitae eros sagittis euismod.</p>
+											<h4>DAHI PAPDI CHAT</h4>
+											<p></p>
 											<h5> $15.79</h5>
 										</div>
 									</div>
@@ -183,27 +182,27 @@
 								
 								<div class="col-lg-4 col-md-6 special-grid lunch">
 									<div class="gallery-single fix">
-										<img src="images/img-05.jpg" class="img-fluid" alt="Image">
+										<img src="images/15.jpg" class="img-fluid" alt="Image">
 										<div class="why-text">
-											<h4>Special Lunch 2</h4>
-											<p>Sed id magna vitae eros sagittis euismod.</p>
-											<h5> $18.79</h5>
+											<h4>RAINBOW GOLGAPPA</h4>
+											<p></p>
+											<h5> $19</h5>
 										</div>
 									</div>
 								</div>
 								
 								<div class="col-lg-4 col-md-6 special-grid lunch">
 									<div class="gallery-single fix">
-										<img src="images/img-06.jpg" class="img-fluid" alt="Image">
+										<img src="images/13.jpg" class="img-fluid" alt="Image">
 										<div class="why-text">
 											<h4>Special Lunch 3</h4>
-											<p>Sed id magna vitae eros sagittis euismod.</p>
+											<p></p>
 											<h5> $20.79</h5>
 										</div>
 									</div>
 								</div>
 								
-								<div class="col-lg-4 col-md-6 special-grid dinner">
+								<!--<div class="col-lg-4 col-md-6 special-grid dinner">
 									<div class="gallery-single fix">
 										<img src="images/img-07.jpg" class="img-fluid" alt="Image">
 										<div class="why-text">
@@ -344,7 +343,7 @@
 											<h5> $24.79</h5>
 										</div>
 									</div>
-								</div>
+								</div>-->
 							</div>
 						</div>
 					</div>
@@ -364,7 +363,8 @@
 					<div class="overflow-hidden">
 						<h4>Phone</h4>
 						<p class="lead">
-							+01 123-456-4590
+						097460 40561
+
 						</p>
 					</div>
 				</div>
@@ -382,7 +382,7 @@
 					<div class="overflow-hidden">
 						<h4>Location</h4>
 						<p class="lead">
-							800, Lorem Street, US
+						24-463/7, Sankarayya Rd, opp. Achuthamenon Park, West Fort, Sreenagar Colony, Thrissur, Kerala 680667
 						</p>
 					</div>
 				</div>
@@ -396,8 +396,10 @@
 		<div class="container">
 			<div class="row">
 				<div class="col-lg-3 col-md-6">
-					<h3>About Us</h3>
-					<p>Integer cursus scelerisque ipsum id efficitur. Donec a dui fringilla, gravida lorem ac, semper magna. Aenean rhoncus ac lectus a interdum. Vivamus semper posuere dui.</p>
+					<h3>From Goal Gappas</h3>
+					<p>
+'At Goal Gappas, we believe in Redefining Authenticity.We serve you Golgappas like you've never had before in many non veg and veg avatars.Between don't miss out on our special Porotta Rolls,Shakes and Desi Macronis. And to top it all, we have our own to-die-for golgappa deserts...'
+Profiles</p>
 				</div>
 				<div class="col-lg-3 col-md-6">
 					<h3>Subscribe</h3>
@@ -418,16 +420,16 @@
 				</div>
 				<div class="col-lg-3 col-md-6">
 					<h3>Contact information</h3>
-					<p class="lead">Ipsum Street, Lorem Tower, MO, Columbia, 508000</p>
-					<p class="lead"><a href="#">+01 2000 800 9999</a></p>
-					<p><a href="#"> info@admin.com</a></p>
+					<p class="lead">24-463/7, Sankarayya Rd, opp. Achuthamenon Park, West Fort, Sreenagar Colony, Thrissur, Kerala 680667</p>
+					<p class="lead"><a href="#"> 097460 40561</a></p>
+					<!--<p><a href="#"> info@admin.com</a></p>-->
 				</div>
 				<div class="col-lg-3 col-md-6">
 					<h3>Opening hours</h3>
-					<p><span class="text-color">Monday: </span>Closed</p>
-					<p><span class="text-color">Tue-Wed :</span> 9:Am - 10PM</p>
-					<p><span class="text-color">Thu-Fri :</span> 9:Am - 10PM</p>
-					<p><span class="text-color">Sat-Sun :</span> 5:PM - 10PM</p>
+					<p><span class="text-color">Monday: </span>1pm - 9pm </p>
+					<p><span class="text-color">Tue-Wed :</span> 1pm - 9pm</p>
+					<p><span class="text-color">Thu-Fri :</span>1pm - 9pm</p>
+					<p><span class="text-color">Sat-Sun :</span> 1pm - 9pm</p>
 				</div>
 			</div>
 		</div>
@@ -436,8 +438,8 @@
 			<div class="container">
 				<div class="row">
 					<div class="col-lg-12">
-						<p class="company-name">All Rights Reserved. &copy; 2018 <a href="#">Live Dinner Restaurant</a> Design By : 
-					<a href="https://html.design/">html design</a></p>
+						<!--<p class="company-name">All Rights Reserved. &copy; 2018 <a href="#">Live Dinner Restaurant</a> Design By : 
+					<a href="https://html.design/">html design</a></p>-->
 					</div>
 				</div>
 			</div>
