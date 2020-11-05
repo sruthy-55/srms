@@ -93,7 +93,7 @@
 						<h1>Welcome To <span>GOAL GAPPAS</span></h1>
 				
 						<p>'At Goal Gappas, we believe in Redefining Authenticity.We serve you Golgappas like you've never had before in many non veg and veg avatars.Between don't miss out on our special Porotta Rolls,Shakes and Desi Macronis. And to top it all, we have our own to-die-for golgappa deserts...'.</p>
-						<a class="btn btn-lg btn-circle btn-outline-new-white" href="#">Reservation</a>
+						<!--<a class="btn btn-lg btn-circle btn-outline-new-white" href="#">Reservation</a>-->
 					</div>
 				</div>
 				<div class="col-lg-6 col-md-7">
