@@ -86,7 +86,7 @@ tfoot td {
          <th scope="col">Quantity</th>
          <th scope="col">Date</th>
          <th scope="col">Time</th>
-		  <th scope="col"></th>
+		 
         </tr>
       </thead>
       <tfoot>
@@ -103,7 +103,7 @@ tfoot td {
 		    <td></td>
 		    <td> </td>
            <td></td>
-           <td></td>
+          
 
         </tr>
         </tr>
