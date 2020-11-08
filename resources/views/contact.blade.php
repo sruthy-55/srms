@@ -8,7 +8,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
  
      <!-- Site Metas -->
-    <title>Live Dinner Restaurant - Responsive HTML5 Template</title>  
+    <title>SRMS</title>  
     <meta name="keywords" content="">
     <meta name="description" content="">
     <meta name="author" content="">
@@ -57,14 +57,14 @@
 								<a class="dropdown-item" href='/gallery'>Customer</a>
 							</div>
 						</li>
-						<li class="nav-item dropdown">
+					<!--	<li class="nav-item dropdown">
 							<a class="nav-link dropdown-toggle" href="#" id="dropdown-a" data-toggle="dropdown">Blog</a>
 							<div class="dropdown-menu" aria-labelledby="dropdown-a">
 								<a class="dropdown-item" href="blog.html">blog</a>
 								<a class="dropdown-item" href="blog-details.html">blog Single</a>
 							</div>
-						</li>
-						<li class="nav-item active"><a class="nav-link" href='/contact'>Contact</a></li>
+						</li>-->
+						<li class="nav-item active"><a class="nav-link" href='/FEEDBACK'>Contact</a></li>
 					</ul>
 				</div>
 			</div>
