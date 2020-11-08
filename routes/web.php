@@ -1,7 +1,11 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
-use App\Http\Controller\AdminAuth;
+
+
+use App\Http\Controllers\customerController;
+
+
 
 /*
 |--------------------------------------------------------------------------
@@ -77,6 +81,23 @@ Route::get('/home', function () {
 Route::get('/login', function () {
     return view('customer.customerlogin');
 });
+
+//Route::post('/cusLogin','customerController@cusLogin');
+Route::post('email',[customerController::class,'cusLogin']);
+Route::get('/cusProfile', [customerController::class,'cusProfile']);
+
 Route::get('/register', function () {
     return view('customer.customerRegister');
 });
+Route::post('/register',[customerController::class,'cusReg']);
+Route::post('login', [ 'as' => 'login', 'uses' => 'LoginController@do']);
+Route::post('Register', [ 'as' => 'register', 'uses' => 'RegisterController@do']);
+Route::get('/logout', function () {
+    if(session()->has('txtName'))
+    {
+        session()->pull('txtName');
+    }
+    return redirect('login');
+});
+
+

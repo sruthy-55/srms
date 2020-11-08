@@ -52,7 +52,9 @@
 						<li class="nav-item dropdown">
 							<a class="nav-link dropdown-toggle" href="#" id="dropdown-a" data-toggle="dropdown">Login</a>
 							<div class="dropdown-menu" aria-labelledby="dropdown-a">
+
 								<a class="dropdown-item" href='/admin.adminlogin'>Admin</a>
+
 								<a class="dropdown-item" href="stuff.html">Staff</a>
 								<a class="dropdown-item" href='/gallery'>Customer</a>
 							</div>
