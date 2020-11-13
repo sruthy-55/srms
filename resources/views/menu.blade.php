@@ -55,6 +55,7 @@
 								<a class="dropdown-item" href='/reservation'>Admin</a>
 								<a class="dropdown-item" href="stuff.html">Staff</a>
 								<a class="dropdown-item" href='/gallery'>Customer</a>
+								
 							</div>
 						</li>
 						<li class="nav-item dropdown">
