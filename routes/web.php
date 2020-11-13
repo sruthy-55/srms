@@ -1,7 +1,10 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+
+
 use App\Http\Controllers\customerController;
+
 
 
 /*
@@ -18,7 +21,6 @@ use App\Http\Controllers\customerController;
 Route::get('/', function () {
     return view('welcome');
 });
-
 
 Route::middleware(['auth:sanctum', 'verified'])->get('/dashboard', function () {
     return view('dashboard');
@@ -39,6 +41,36 @@ Route::get('/reservation', function () {
     return view('reservation');
 });
 
+Route::get('/adminlogin', function () {
+    return view('admin.adminlogin');
+});
+
+//Route::post("Admin",[AdminAuth::class,'AdminLogin']);
+//Route::view("adminlogin",'adminlogin');
+
+Route::get('/adminhome', function () {
+    return view('admin.adminhome');
+});
+
+Route::get('/orderlist', function() {
+    return view('admin.orderlist');
+});
+
+Route::get('/foodlist', function() {
+    return view('admin.foodlist');
+});
+
+Route::get('/staffapprove', function() {
+    return view('admin.staffapprove');
+});
+
+Route::get('/tblreserved', function() {
+    return view('admin.tblreserved');
+});
+
+//Route::get('/adminlogout', function() {
+  //  return view('admin.adminlogout');
+//});
 Route::get('/gallery', function () {
     return view('gallery');
 });
@@ -49,6 +81,7 @@ Route::get('/home', function () {
 Route::get('/login', function () {
     return view('customer.customerlogin');
 });
+
 //Route::post('/cusLogin','customerController@cusLogin');
 Route::post('email',[customerController::class,'cusLogin']);
 Route::get('/cusProfile', [customerController::class,'cusProfile']);
@@ -66,4 +99,5 @@ Route::get('/logout', function () {
     }
     return redirect('login');
 });
+
 
