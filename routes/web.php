@@ -1,8 +1,13 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+<<<<<<< HEAD
 use Illuminate\Support\Facades\Mail;
 use App\Http\controllers\adminController;
+=======
+
+
+>>>>>>> 798402e1befb55ec3a3acc3ca775a738dc30a1d6
 use App\Http\Controllers\customerController;
 use App\Http\controllers\reservationController;
 use App\Http\controllers\mailController;
@@ -10,6 +15,7 @@ use App\Http\controllers\CategoryController;
 use App\Http\controllers\MenuaddController;
 use App\Http\controllers\MenuController;
 use App\Mail\TestMail;
+
 
 
 /*
@@ -115,6 +121,36 @@ Route::get('/tblreserved', function() {
 //});
 
 
+Route::get('/admin.adminlogin', function () {
+    return view('admin.adminlogin');
+});
+
+Route::post("Admin",[AdminAuth::class,'AdminLogin']);
+Route::view("adminlogin",'adminlogin');
+
+Route::get('/admin.adminhome', function () {
+    return view('admin.adminhome');
+});
+
+Route::get('/admin.orderlist', function() {
+    return view('admin.orderlist');
+});
+
+Route::get('/admin.foodlist', function() {
+    return view('admin.foodlist');
+});
+
+Route::get('/admin.staffapprove', function() {
+    return view('admin.staffapprove');
+});
+
+Route::get('/admin.tblreserved', function() {
+    return view('admin.tblreserved');
+});
+
+Route::get('/admin.adminlogout', function() {
+    return view('admin.adminlogout');
+});
 Route::get('/gallery', function () {
     return view('gallery');
 });
@@ -157,10 +193,15 @@ Route::get('/home', function () {
 Route::get('/login', function () {
     return view('customer.customerlogin');
 });
+<<<<<<< HEAD
 Route::get('/selectmenu', function () {
     return view('customer.selectmenu');
 });
 
+=======
+
+//Route::post('/cusLogin','customerController@cusLogin');
+>>>>>>> 798402e1befb55ec3a3acc3ca775a738dc30a1d6
 Route::post('email',[customerController::class,'cusLogin']);
 Route::get('/cusProfile', [customerController::class,'cusProfile']);
 
@@ -225,4 +266,8 @@ Route::get('/viewaddmenu', [adminController::class,'menuAdd']);
 //
 Route::resource('menus','App\Http\Controllers\MenuController');
 
+<<<<<<< HEAD
 Route::get('/viewmenu', [customerController::class,'ViewMenu']);
+=======
+
+>>>>>>> 798402e1befb55ec3a3acc3ca775a738dc30a1d6

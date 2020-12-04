@@ -10,8 +10,13 @@
             <form class="login-form" method="POST" action="{{ route('login') }}">
             @csrf
 
+<<<<<<< HEAD
             <div  class="mt-4">
                 <x-jet-label value="{{ __('Email') }}"/>
+=======
+            <div>
+                <x-jet-label value="{{ __('Email') }}" placeholder="Enter admin email"/>
+>>>>>>> 798402e1befb55ec3a3acc3ca775a738dc30a1d6
                 <x-jet-input class="block mt-1 w-full" type="email" name="email" :value="old('email')" required autofocus />
             </div>
 

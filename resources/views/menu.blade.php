@@ -38,8 +38,13 @@
 	<header class="top-navbar">
 		<nav class="navbar navbar-expand-lg navbar-light bg-light">
 			<div class="container">
+<<<<<<< HEAD
 				<a class="navbar-brand" href='/'>
 				<img src="images/goal.jpg" alt="" />
+=======
+				<a class="navbar-brand" href="welcome.blade.php">
+					<img src="images/logo.png" alt="" />
+>>>>>>> 798402e1befb55ec3a3acc3ca775a738dc30a1d6
 				</a>
 				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbars-rs-food" aria-controls="navbars-rs-food" aria-expanded="false" aria-label="Toggle navigation">
 				  <span class="navbar-toggler-icon"></span>
@@ -53,11 +58,18 @@
 							<a class="nav-link dropdown-toggle" href="#" id="dropdown-a" data-toggle="dropdown">Login</a>
 							<div class="dropdown-menu" aria-labelledby="dropdown-a">
 
+<<<<<<< HEAD
 								<a class="dropdown-item" href='/adminlogin'>Admin</a>
 
 								<a class="dropdown-item" href='/staffhome'>Staff</a>
 								<a class="dropdown-item" href='/home'>Customer</a>
 								
+=======
+								<a class="dropdown-item" href='/admin.adminlogin'>Admin</a>
+
+								<a class="dropdown-item" href="stuff.html">Staff</a>
+								<a class="dropdown-item" href='/gallery'>Customer</a>
+>>>>>>> 798402e1befb55ec3a3acc3ca775a738dc30a1d6
 							</div>
 						</li>
 						<!--<li class="nav-item dropdown">
@@ -171,6 +183,19 @@
 											<h4>Paneer Golgappa </h4>
 											<p>Filled with grilled paneer in buttery spicy combination</p>
 											<h5> 79/-</h5>
+<<<<<<< HEAD
+=======
+										</div>
+									</div>
+								</div>
+								<div class="col-lg-4 col-md-6 special-grid dinner">
+									<div class="gallery-single fix">
+										<img src="images/25.jpg" class="img-fluid" alt="Image">
+										<div class="why-text">
+											<h4>Zebra Shots</h4>
+											<p>The retro Baw golgappas served with multi-layered desert shots</p>
+											<h5>179/-</h5>
+>>>>>>> 798402e1befb55ec3a3acc3ca775a738dc30a1d6
 										</div>
 									</div>
 								</div>
@@ -186,6 +211,10 @@
 								</div>
 								
 								
+<<<<<<< HEAD
+=======
+								
+>>>>>>> 798402e1befb55ec3a3acc3ca775a738dc30a1d6
 								<div class="col-lg-4 col-md-6 special-grid dinner">
 									<div class="gallery-single fix">
 										<img src="images/Clichegolgappa.jpg" class="img-fluid" alt="Image">
@@ -243,6 +272,7 @@
 										<div class="why-text">
 											<h4>Beef Churuttikootiyathu</h4>
 											<h5>88/-</h5>
+<<<<<<< HEAD
 										</div>
 									</div>
 								</div>
@@ -324,11 +354,97 @@
 										<div class="why-text">
 											<h4>Be-Mac</h4>
 											<h5>89/-</h5>
+=======
+>>>>>>> 798402e1befb55ec3a3acc3ca775a738dc30a1d6
 										</div>
 									</div>
 								</div>
 								<div class="col-lg-4 col-md-6 special-grid dinner">
 									<div class="gallery-single fix">
+<<<<<<< HEAD
+=======
+										<img src="images/19.jpg" class="img-fluid" alt="Image">
+										<div class="why-text">
+											<h4>Veg Churuttikootiyathu</h4>
+											<h5>87/-</h5>
+										</div>
+									</div>
+								</div>
+								<div class="col-lg-4 col-md-6 special-grid dinner">
+									<div class="gallery-single fix">
+										<img src="images/blackcloud1.png" class="img-fluid" alt="Image">
+										<div class="why-text">
+											<h4>Black Cloud</h4>
+											<h5>129/-</h5>
+										</div>
+									</div>
+								</div>
+								<div class="col-lg-4 col-md-6 special-grid dinner">
+									<div class="gallery-single fix">
+										<img src="images/gymshake.jpg" class="img-fluid" alt="Image">
+										<div class="why-text">
+											<h4>Gym Shake</h4>
+											<h5>119/-</h5>
+										</div>
+									</div>
+								</div>
+								<div class="col-lg-4 col-md-6 special-grid dinner">
+									<div class="gallery-single fix">
+										<img src="images/kheershake.jpg" class="img-fluid" alt="Image">
+										<div class="why-text">
+											<h4>Kheer Shake</h4>
+											<h5>89/-</h5>
+										</div>
+									</div>
+								</div>
+								<div class="col-lg-4 col-md-6 special-grid dinner">
+									<div class="gallery-single fix">
+										<img src="images/polashake.jpg" class="img-fluid" alt="Image">
+										<div class="why-text">
+											<h4>Pola Shake</h4>
+											<h5>79/-</h5>
+										</div>
+									</div>
+								</div>
+								<div class="col-lg-4 col-md-6 special-grid dinner">
+									<div class="gallery-single fix">
+										<img src="images/pinkbeauty.jpg" class="img-fluid" alt="Image">
+										<div class="why-text">
+											<h4>Pink Beauty</h4>
+											<h5>69/-</h5>
+										</div>
+									</div>
+								</div>
+								<div class="col-lg-4 col-md-6 special-grid dinner">
+									<div class="gallery-single fix">
+										<img src="images/limewater.png" class="img-fluid" alt="Image">
+										<div class="why-text">
+											<h4>Naranga Vellam</h4>
+											<h5>19/-</h5>
+										</div>
+									</div>
+								</div>
+								<div class="col-lg-4 col-md-6 special-grid dinner">
+									<div class="gallery-single fix">
+										<img src="images/chimac.jpg" class="img-fluid" alt="Image">
+										<div class="why-text">
+											<h4>Chi-Mac</h4>
+											<h5>99/-</h5>
+										</div>
+									</div>
+								</div>
+								<div class="col-lg-4 col-md-6 special-grid dinner">
+									<div class="gallery-single fix">
+										<img src="images/bemac.png" class="img-fluid" alt="Image">
+										<div class="why-text">
+											<h4>Be-Mac</h4>
+											<h5>89/-</h5>
+										</div>
+									</div>
+								</div>
+								<div class="col-lg-4 col-md-6 special-grid dinner">
+									<div class="gallery-single fix">
+>>>>>>> 798402e1befb55ec3a3acc3ca775a738dc30a1d6
 										<img src="images/13.jpg" class="img-fluid" alt="Image">
 										<div class="why-text">
 											<h4>Ve-Mac</h4>

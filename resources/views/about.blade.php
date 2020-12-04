@@ -164,7 +164,11 @@
 										<div class="why-text">
 											<h4>POROTTA ROLLS</h4>
 											<p></p>
+<<<<<<< HEAD
 											<h5> 10.79</h5>
+=======
+											<h5> $10.79</h5>
+>>>>>>> 798402e1befb55ec3a3acc3ca775a738dc30a1d6
 										</div>
 									</div>
 								</div>
