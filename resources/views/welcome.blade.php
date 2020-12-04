@@ -39,7 +39,7 @@
 	<header class="top-navbar">
 		<nav class="navbar navbar-expand-lg navbar-light bg-light">
 			<div class="container">
-				<a class="navbar-brand" href="index.html">
+				<a class="navbar-brand" href='/'>
 					<img src="images/goal.jpg" alt="" />
 				</a>
 				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbars-rs-food" aria-controls="navbars-rs-food" aria-expanded="false" aria-label="Toggle navigation">
@@ -66,18 +66,20 @@
 						<li class="nav-item dropdown">
 							<a class="nav-link dropdown-toggle" href="#" id="dropdown-a" data-toggle="dropdown">Login</a>
 							<div class="dropdown-menu" aria-labelledby="dropdown-a">
-								<a class="dropdown-item" href='/adminhome'>Admin</a>
-								<a class="dropdown-item" href="stuff.html">Staff</a>
+								<a class="dropdown-item" href='/adminlogin'>Admin</a>
+								<a class="dropdown-item" href='/staffhome'>Staff</a>
+
+								
 								<a class="dropdown-item" href='/home'>Customer</a>
 							</div>
 						</li>
-						<li class="nav-item dropdown">
+					<!--	<li class="nav-item dropdown">
 							<a class="nav-link dropdown-toggle" href="#" id="dropdown-a" data-toggle="dropdown">Blog</a>
 							<div class="dropdown-menu" aria-labelledby="dropdown-a">
 								<a class="dropdown-item" href="blog.html">blog</a>
 								<a class="dropdown-item" href="blog-details.html">blog Single</a>
 							</div>
-						</li>
+						</li>-->
 						<li class="nav-item"><a class="nav-link" href='/contact'>Contact</a></li>
 					</ul>
 				</div>
@@ -96,7 +98,7 @@
 						<div class="col-md-12">
 							<h1 class="m-b-20"><strong>Welcome To <br> Goal Gappas </strong></h1>
 							<p class="m-b-40">Goal Gappas in Thrissur to taste authentic Kolkata golgappa.</p>
-							<p><a class="btn btn-lg btn-circle btn-outline-new-white" href='/reservation'>Reservation</a></p>
+							<!--<p><a class="btn btn-lg btn-circle btn-outline-new-white" href='/reservation'>Reservation</a></p>-->
 						</div>
 					</div>
 				</div>
@@ -108,7 +110,7 @@
 						<div class="col-md-12">
 							<h1 class="m-b-20"><strong>Welcome To <br> Goal Gappas </strong></h1>
 							<p class="m-b-40">Goal Gappas in Thrissur to taste authentic Kolkata golgappa.</p>
-							<p><a class="btn btn-lg btn-circle btn-outline-new-white" href='/reservation'>Reservation</a></p>
+							<!--<p><a class="btn btn-lg btn-circle btn-outline-new-white" href='/reservation'>Reservation</a></p>-->
 						</div>
 					</div>
 				</div>
@@ -120,7 +122,7 @@
 						<div class="col-md-12">
 							<h1 class="m-b-20"><strong>Welcome To <br> Goal Gappas</strong></h1>
 							<p class="m-b-40">Goal Gappas in Thrissur to taste authentic Kolkata golgappa.</p>
-							<p><a class="btn btn-lg btn-circle btn-outline-new-white" href='/reservation'>Reservation</a></p>
+							<!--<p><a class="btn btn-lg btn-circle btn-outline-new-white" href='/reservation'>Reservation</a></p>-->
 						</div>
 					</div>
 				</div>
@@ -143,7 +145,7 @@
 						<h4>Little Story</h4>
 						<p>Golgappa or pani puri is one of the most popular items that are enjoyed by the foodies of Kerala.The number of North Indian food joints or way side chaat shops is proof enough for Keralites' love food. </p>
 						<p>From the regular pani puri and dahi (yogurt) puri to the Arabic golgappa with a pan grilled chicken .</p>
-						<a class="btn btn-lg btn-circle btn-outline-new-white" href="#">Reservation</a>
+					<!--	<a class="btn btn-lg btn-circle btn-outline-new-white" href="#">Reservation</a>-->
 					</div>
 				</div>
 				<div class="col-lg-6 col-md-6 col-sm-12">
@@ -170,7 +172,7 @@
 	<!-- End QT -->
 	
 	<!-- Start Menu -->
-	<div class="menu-box">
+	<!--<div class="menu-box">
 		<div class="container">
 			<div class="row">
 				<div class="col-lg-12">
@@ -410,7 +412,7 @@
 			</div>
 			
 		</div>
-	</div>
+	</div>-->
 	<!-- End Menu -->
 	
 	<!-- Start Gallery -->
@@ -420,15 +422,15 @@
 				<div class="col-lg-12">
 					<div class="heading-title text-center">
 						<h2>Gallery</h2>
-						<p>Lorem Ipsum is simply dummy text of the printing and typesetting</p>
+						<!--<p>Lorem Ipsum is simply dummy text of the printing and typesetting</p>-->
 					</div>
 				</div>
 			</div>
 			<div class="tz-gallery">
 				<div class="row">
 					<div class="col-sm-12 col-md-4 col-lg-4">
-						<a class="lightbox" href="images/gallery-img-01.jpg">
-							<img class="img-fluid" src="images/gallery-img-01.jpg" alt="Gallery Images">
+						<a class="lightbox" href="images/goal3.jpg">
+							<img class="img-fluid" src="images/goal3.jpg" alt="Gallery Images">
 						</a>
 					</div>
 					<div class="col-sm-6 col-md-4 col-lg-4">
@@ -463,7 +465,7 @@
 	<!-- End Gallery -->
 	
 	<!-- Start Customer Reviews -->
-	<div class="customer-reviews-box">
+<!--	<div class="customer-reviews-box">
 		<div class="container">
 			<div class="row">
 				<div class="col-lg-12">
@@ -514,7 +516,7 @@
 				</div>
 			</div>
 		</div>
-	</div>
+	</div>-->
 	<!-- End Customer Reviews -->
 	
 	<!-- Start Contact info -->
@@ -526,7 +528,7 @@
 					<div class="overflow-hidden">
 						<h4>Phone</h4>
 						<p class="lead">
-							+01 123-456-4590
+						097460 40561
 						</p>
 					</div>
 				</div>
@@ -535,7 +537,8 @@
 					<div class="overflow-hidden">
 						<h4>Email</h4>
 						<p class="lead">
-							yourmail@gmail.com
+						goalgappas@gmail.com
+
 						</p>
 					</div>
 				</div>
@@ -544,7 +547,7 @@
 					<div class="overflow-hidden">
 						<h4>Location</h4>
 						<p class="lead">
-							800, Lorem Street, US
+						24-463/7, Sankarayya Rd, opp. Achuthamenon Park, West Fort, Sreenagar Colony, Thrissur, Kerala 680667
 						</p>
 					</div>
 				</div>
@@ -559,7 +562,7 @@
 			<div class="row">
 				<div class="col-lg-3 col-md-6">
 					<h3>About Us</h3>
-					<p>Integer cursus scelerisque ipsum id efficitur. Donec a dui fringilla, gravida lorem ac, semper magna. Aenean rhoncus ac lectus a interdum. Vivamus semper posuere dui.</p>
+					<p>Amongst the tonnes of failed experiements, we had some success and thats in our menu here at Goal Gappas..</p>
 				</div>
 				<div class="col-lg-3 col-md-6">
 					<h3>Subscribe</h3>
@@ -580,8 +583,8 @@
 				</div>
 				<div class="col-lg-3 col-md-6">
 					<h3>Contact information</h3>
-					<p class="lead">Ipsum Street, Lorem Tower, MO, Columbia, 508000</p>
-					<p class="lead"><a href="#">+01 2000 800 9999</a></p>
+					<p class="lead">24-463/7, Sankarayya Rd, opp. Achuthamenon Park, West Fort, Sreenagar Colony, Thrissur, Kerala 680667</p>
+					<p class="lead"><a href="#"> 097460 40561</a></p>
 					<p><a href="#"> info@admin.com</a></p>
 				</div>
 				<div class="col-lg-3 col-md-6">
@@ -598,8 +601,8 @@
 			<div class="container">
 				<div class="row">
 					<div class="col-lg-12">
-						<p class="company-name">All Rights Reserved. &copy; 2018 <a href="#">Live Dinner Restaurant</a> Design By : 
-					<a href="https://html.design/">html design</a></p>
+					<!--	<p class="company-name">All Rights Reserved. &copy; 2018 <a href="#">Live Dinner Restaurant</a> Design By : 
+					<a href="https://html.design/">html design</a></p>-->
 					</div>
 				</div>
 			</div>

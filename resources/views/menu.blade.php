@@ -38,8 +38,8 @@
 	<header class="top-navbar">
 		<nav class="navbar navbar-expand-lg navbar-light bg-light">
 			<div class="container">
-				<a class="navbar-brand" href="welcome.blade.php">
-					<img src="images/logo.png" alt="" />
+				<a class="navbar-brand" href='/'>
+				<img src="images/goal.jpg" alt="" />
 				</a>
 				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbars-rs-food" aria-controls="navbars-rs-food" aria-expanded="false" aria-label="Toggle navigation">
 				  <span class="navbar-toggler-icon"></span>
@@ -53,10 +53,10 @@
 							<a class="nav-link dropdown-toggle" href="#" id="dropdown-a" data-toggle="dropdown">Login</a>
 							<div class="dropdown-menu" aria-labelledby="dropdown-a">
 
-								<a class="dropdown-item" href='/admin.adminlogin'>Admin</a>
+								<a class="dropdown-item" href='/adminlogin'>Admin</a>
 
-								<a class="dropdown-item" href="stuff.html">Staff</a>
-								<a class="dropdown-item" href='/gallery'>Customer</a>
+								<a class="dropdown-item" href='/staffhome'>Staff</a>
+								<a class="dropdown-item" href='/home'>Customer</a>
 								
 							</div>
 						</li>

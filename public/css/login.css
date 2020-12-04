@@ -4,6 +4,17 @@
 body, html {
   height: 100%;
 }
+.login{  
+  width: 300px;  
+  height:400px;
+  overflow: hidden;  
+  margin: auto;  
+  margin: 20 0 0 450px;  
+  padding: 80px;  
+  background: #462338;  
+  border-radius: 15px ;  
+    
+}
 body {
   font-family: 'Open Sans';
   font-weight: 100;

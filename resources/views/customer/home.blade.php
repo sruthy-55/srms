@@ -53,13 +53,13 @@
 						<li class="nav-item"><a class="nav-link" href='/about'>About</a></li>
 						<li class="nav-item active"><a class="nav-link" href='/home'>Customer</a></li>
 						
-						<li class="nav-item dropdown">
+						<!--<li class="nav-item dropdown">
 							<a class="nav-link dropdown-toggle" href="#" id="dropdown-a" data-toggle="dropdown">Blog</a>
 							<div class="dropdown-menu" aria-labelledby="dropdown-a">
 								<a class="dropdown-item" href="blog.html">blog</a>
 								<a class="dropdown-item" href="blog-details.html">blog Single</a>
 							</div>
-						</li>
+						</li>-->
 						<li class="nav-item"><a class="nav-link" href='/contact'>Contact</a></li>
 					</ul>
 				</div>
@@ -120,7 +120,7 @@
 	
 	
 	<!-- Start Footer -->
-	<footer class="footer-area bg-f">
+	<!--<footer class="footer-area bg-f">
 		<div class="container">
 			<div class="row">
 				<div class="col-lg-3 col-md-6">
@@ -171,7 +171,7 @@
 			</div>
 		</div>
 		
-	</footer>
+	</footer>-->
 	<!-- End Footer -->
 	
 	<a href="#" id="back-to-top" title="Back to top" style="display: none;"><i class="fa fa-paper-plane-o" aria-hidden="true"></i></a>

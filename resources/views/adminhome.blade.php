@@ -22,9 +22,14 @@
 				</div>
 				<ul class="nav nav-sidebar list-group" class="nav-wrapper">
 				    <li class="list-group-item active"><a href='/foodlist'>Menu </a></li>
-					<li class="list-group-item"><a href='/staffapprove'>Staff Approval</a></li>
+					<li class="list-group-item"><a href='/add'>Add category</a></li>
 				    <!--<li class="list-group-item"><a href="category-list.php">Category</a></li>-->
 					<li ><a href='/orderlist'>View Todays Order</a></li>
+					<li class="list-group-item active" ><a href="/foodmenu">foodMenu </a></li>
+					<li class="list-group-item active" ><a href="/tblmanage">manage table </a></li>
+					<li class="list-group-item active" ><a href="/adminapprove">Approve Reservation </a></li>
+					<li class="list-group-item active" ><a href="/menus">Add Menu</a></li>
+
 
 				    <!--<li class="list-group-item"><a href='/orderlist'>View Todays Order</a></li>-->
 				    <li class="list-group-item modal-trigger" data-target="modal1"><a href='/tblreserved'>View Reserved Table</a></li>
@@ -39,7 +44,7 @@
 				        <li><a href='/adminhome'>My Profile</a></li>
 				        <li><a href="../">Home</a></li>
 				       <!-- <li data-target="modal1" class="modal-trigger"><a href="#">About</a></li>-->
-				        <li><a href='/logout'>Logout</a></li>
+				        <li><a href='/adminlogout'>Logout</a></li>
 				      </ul>
 				    </div>
 				  </nav>

@@ -12,5 +12,6 @@ class AdminAuth extends Controller
         $data= $req->input();
         $req->session()->put('admin',$data['user']);
         echo session('admin');
+        
     }
 }

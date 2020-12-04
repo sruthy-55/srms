@@ -1,0 +1,96 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:100,300,400,700);
+@import url(//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css);
+
+body{
+    background-color: #000;
+}
+.container {
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+}
+.container:before{
+    content: "";
+    position: absolute;
+    top: -2px;
+    left: -2px;
+    right: -2px;
+    bottom: -2px;
+    background-color: #fff;
+    z-index: -1;
+}
+.container:after{
+    content: "";
+    position: absolute;
+    top: -2px;
+    left: -2px;
+    right: -2px;
+    bottom: -2px;
+    background-color: #fff;
+    z-index: -1;
+    filter: blur(40px);
+}
+.container:after,
+.container:before{
+    background:linear-gradient(235deg,orange,red,blue);
+}
+.card{
+    position:relative;
+    background-color:rgba(0,0,0,1);
+    padding:25px;
+    text-align:center;
+    max-width: 400%;
+}
+.card input{
+    margin-bottom:30px;
+    color:#fff;
+    outline:none;
+    padding:9px;
+    border-style:none;
+    box-shadow:0 0 8px 0 rgb(3, 104, 28);
+    font-size:16px;
+    text-align:center;
+    border-radius:40px;
+    border:2px solid rgba(0,255,0,0,7);
+    transition:0.4s;
+    background-color:transparent;
+}
+.btn{
+    width:150px;
+    color:#fff;
+    transition:0.4s;
+    background-color: transparent;
+}
+.btn:focus{
+    background-color:transparent;
+    border-color:dodgerblue;
+    box-shadow:0 0 8px 0 dodgerblue;
+}
+.heading{
+    margin-bottom:35px;
+    position:relative;
+    line-height: 60px;
+    color:red;
+}
+.heading::after{
+    //content:"";
+    width:150px;
+    height:7px;
+    border-radius: 5px;
+    background-color: white;
+    position:absolute;
+    bottom:0;
+    left:50%;
+    translate:translate(-50%);
+}
+.card input[type="password"]:focus{
+    background-color:transparent;
+    border-color:dodgerblue;
+    box-shadow:0 0 8px 0 dodgerblue;
+}
+.card input[type="email"]:focus{
+    background-color:transparent;
+    border-color:dodgerblue;
+    box-shadow:0 0 8px 0 dodgerblue;
+}

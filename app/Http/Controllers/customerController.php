@@ -4,6 +4,7 @@ namespace App\Http\Controllers;
 use Illuminate\Support\Facades\DB;
 use Illuminate\Http\Request;
 use App\Models\Customer;
+use App\Models\Menu;
 //use Illuminate\Database\Eloquent\Model;
 
 class customerController extends Controller
@@ -39,10 +40,6 @@ class customerController extends Controller
 			}
 		}
 		
-		
-	
-	
-
 	function cusReg(Request $req)
 	{
 		$customer=new Customer;
@@ -55,5 +52,18 @@ class customerController extends Controller
 		$customer->save();
 		return redirect('register');
 	}
+
+//menu
+
+	Public function ViewMenu()
+	{
+		//return DB::select("select *from menus");
+		$menu =Menu:: all();
+
+		return view('viewmenu',['menus'=>$menu]);
+		
+	}
+
+
 }	
 

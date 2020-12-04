@@ -38,8 +38,8 @@
 	<header class="top-navbar">
 		<nav class="navbar navbar-expand-lg navbar-light bg-light">
 			<div class="container">
-				<a class="navbar-brand" href="index.html">
-					<img src="images/logo.png" alt="" />
+				<a class="navbar-brand" href="/">
+					<img src="images/goal.jpg" alt="" />
 				</a>
 				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbars-rs-food" aria-controls="navbars-rs-food" aria-expanded="false" aria-label="Toggle navigation">
 				  <span class="navbar-toggler-icon"></span>
@@ -53,8 +53,8 @@
 							<a class="nav-link dropdown-toggle" href="#" id="dropdown-a" data-toggle="dropdown">Login</a>
 							<div class="dropdown-menu" aria-labelledby="dropdown-a">
 								<a class="dropdown-item" href='/reservation'>Admin</a>
-								<a class="dropdown-item" href="stuff.html">Staff</a>
-								<a class="dropdown-item" href='/gallery'>Customer</a>
+								<a class="dropdown-item" href='staffhome'>Staff</a>
+								<a class="dropdown-item" href='/home'>Customer</a>
 							</div>
 						</li>
 						<!--<li class="nav-item dropdown">
@@ -117,7 +117,7 @@
 				<div class="col-lg-12">
 					<div class="heading-title text-center">
 						<h2>Special Menu</h2>
-						<p>Lorem Ipsum is simply dummy text of the printing and typesetting</p>
+						<p></p>
 					</div>
 				</div>
 			</div>
@@ -164,7 +164,7 @@
 										<div class="why-text">
 											<h4>POROTTA ROLLS</h4>
 											<p></p>
-											<h5> $10.79</h5>
+											<h5> 10.79</h5>
 										</div>
 									</div>
 								</div>
